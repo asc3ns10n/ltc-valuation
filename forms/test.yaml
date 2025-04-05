@@ -1,0 +1,39 @@
+form:
+  id: campaign-request
+  title: Campaign Request Form
+  description: Submit a request for a new marketing campaign
+  sections:
+    - title: Campaign Details
+      key: campaign-details
+      fields:
+        - name: campaign_name
+          type: text
+          label: Campaign Name
+          placeholder: Enter campaign name
+          required: true
+        - name: campaign_type
+          type: select
+          label: Campaign Type
+          required: true
+          options:
+            - label: "Email"
+              value: "email"
+            - label: "Social Media"
+              value: "social"
+            - label: "Print"
+              value: "print"
+            - label: "Digital"
+              value: "digital"
+        - name: start_date
+          type: text
+          label: Start Date
+          required: true
+        - name: end_date
+          type: text
+          label: End Date
+          required: true
+        - name: target_audience
+          type: textarea
+          label: Target Audience
+          rows: 4
+          required: true`,
