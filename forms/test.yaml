@@ -36,4 +36,4 @@ form:
           type: textarea
           label: Target Audience
           rows: 4
-          required: true`,
+          required: true
